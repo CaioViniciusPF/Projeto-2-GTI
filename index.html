@@ -5,9 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>CraftPixels</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css"  rel="stylesheet" />
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="/uicons-regular-rounded/css/uicons-regular-rounded.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+ 
 </head>
 
 <body>
@@ -33,7 +35,57 @@
   </div>
 </div>
   
-<div class="partecentral">
+<!-- caiovini modification -->
+
+<div id="default-carousel" class="relative w-full" data-carousel="slide">
+  <!-- Carousel wrapper -->
+  <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+       <!-- Item 1 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="childrenofmorta.gif" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="blasphemous4.gif" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 3 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="doom64.gif" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 4 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="elventales-gif.gif" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+
+  </div>
+  <!-- Slider indicators -->
+  <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+  </div>
+  <!-- Slider controls -->
+  <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+          </svg>
+          <span class="sr-only">Previous</span>
+      </span>
+  </button>
+  <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <span class="sr-only">Next</span>
+      </span>
+  </button>
+</div>
+<!-- caiovini modification -->
+
+<!-- <div class="partecentral">
 
   <div class="partecentral12">
   <img class="imagembanner1" src="blasphemous4.gif"/>
@@ -42,12 +94,9 @@
   <img class="imagembanner1" src="blasphemous4.gif"/>
   <img class="imagembanner1" src="doom64.gif"/>
   <img class="imagembanner1" src="childrenofmorta.gif"/>
-    </div>
+    </div> -->
   
-  <div class="textopartecentral1">
-  <p class="textopartecentral">Olá,  seja muito bem-vindo à CraftPixels! Somos uma desenvolvedora de jogos indie com uma estética principal que homenageia os gráficos pixelados dos jogos clássicos. Explore nosso portfólio e esteja preparado para vivenciar horas incríveis de diversão com nossos jogos!</p>
-    <button class="botaopartecentral"><p class="textobnt">Shop Games</p></button>
-  </div>
+ 
   
 </div>
   <div class="nossosprincipa"><h2>Nossos principais titulos</h2></div>
@@ -130,6 +179,12 @@
   <div class="partecentral4">
     <div class="partecentral41">
       <div class="comentpartecentral4">
+        <div class="comentpartecentral41"><p class="autores">caiovini</p><p class="comentarios">MARAVILHOSO! Amo castlevania symphony of the night, e este jogo foi o mais perto de um castlevania com elementos hack n slash... voce comba e morre! Excelente! voce vai adorar! 10/10</p><p class="autores">- Raphael Rodrigues -</p></div>
+      </div>
+      <div class="comentpartecentral4">
+        <div class="comentpartecentral41"><p class="autores">caiovini</p><p class="comentarios">MARAVILHOSO! Amo castlevania symphony of the night, e este jogo foi o mais perto de um castlevania com elementos hack n slash... voce comba e morre! Excelente! voce vai adorar! 10/10</p><p class="autores">- Raphael Rodrigues -</p></div>
+      </div>
+      <div class="comentpartecentral4">
         <div class="comentpartecentral41"><p class="autores">Blasphemous</p><p class="comentarios">MARAVILHOSO! Amo castlevania symphony of the night, e este jogo foi o mais perto de um castlevania com elementos hack n slash... voce comba e morre! Excelente! voce vai adorar! 10/10</p><p class="autores">- Raphael Rodrigues -</p></div>
       </div>
       <div class="comentpartecentral4">
@@ -174,8 +229,14 @@
       <div class="textoflexboxpartefinal41"><p>Deixe-nos saber a sua opinião sobre coisas que você adora e coisas que podem ser melhoradas no site:</p></div>
       <input class="inputflexboxpartefinal4"/>
     </div>
-    <div class="flexboxpartefinal5"><p class="textoflexboxpartefinal5">CraftPixels utiliza cookies. Ao continuar a navegar no site você concorda com isso.</p></div>
+    <div class="flexboxpartefinal5"><p class="textoflexboxpartefinal5">CraftPixels utiliza cookies. Ao continuar a navegar no site você concorda com isso.</p>
+      
+      </div>
     </div>
+    <a href="https://wa.me" class="wh-button" target="_blank">
+      <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+      </a>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
 </body>
   <script src="script.js"></script>
 </html>

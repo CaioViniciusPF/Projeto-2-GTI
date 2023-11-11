@@ -1,19 +1,32 @@
-html,body{
-  height: 100%;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
+
+html{
   background-color: #F8F8F8;
 }
-*{
-  box-sizing: content-box;
+
+/*modificações das demandas*/
+/* butao de whats */
+.wh-button{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index:1000;
 }
 
+/*fim*/
 .partesup{
+  position: absolute;
+  z-index: 99;
   align-content: center;
   text-align: center;
   display: flex;
-  background-color: #202020;
   height: 80px;
   width: 100%;
   padding: 0px;
@@ -30,12 +43,12 @@ html,body{
   text-align: center;
   padding: 5px;
   color: white;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   font-size: 20px;
   
 }
-.partecentral{
+/* .partecentral{
   position: relative;
   align-items: center;
   display: flex;
@@ -50,7 +63,7 @@ html,body{
   border-radius: 10px;
   justify-content: space-between;
   
-}
+} */
 .partecentral4{
   position: relative;
   align-items: center;
@@ -98,12 +111,12 @@ html,body{
 }
 .comentarios{
   color: white;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
 }
 .autores{
   color: white;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .textopartecentral1{
   position: relative;
@@ -113,7 +126,7 @@ html,body{
   justify-content: center;
   text-align: center;
   margin-left: 150px;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
   /*background-color: red;*/
 }
@@ -189,7 +202,7 @@ html,body{
 .textopartecentralmaior{
   color: black;
   justify-content: center;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   font-size:20px;
 }
@@ -250,24 +263,24 @@ html,body{
   margin-right: 10px;
   border-right: 1px solid white;
   color: white;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   padding-right: 10px;
 }
 .textoflexboxpartefinal21{
   margin-right: 10px;
   color: white;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   padding-right: 10px;
 }
 .textoflexboxpartefinal5{
   margin-right: 10px;
   color: white;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   padding-right: 10px;
 }
 .textoflexboxpartefinal41{
   color: white;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin-right: 40px;
   text-align: left;
   align-items: center;
@@ -299,7 +312,7 @@ html,body{
 .textobnt{
   color: white;
   padding: 5px;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
 }
 .posbotaopartesupdireita{
@@ -333,18 +346,18 @@ html,body{
 .textopartecentral{
   
   justify-content: center;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
 }
 .textopartecentralmenor{
   color: black;
   justify-content: center;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .textopartecentralmenor2{
   color: black;
   justify-content: center;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .textoimgpartecentmenor{
   float: left;
@@ -402,7 +415,7 @@ html,body{
 .textopartecentral22{
   color: white;
   font-size: 20px;
-  font-family: roboto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .botaopartecentral{
   display: flex;
